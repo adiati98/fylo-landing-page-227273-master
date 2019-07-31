@@ -27,35 +27,34 @@
 
 .navbar {
 	position: absolute;
-	left: 10%;
+	left: 5%;
 }
 
 nav ul {
 	list-style: none;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
 	margin-top: 3em;
 }
 
 nav ul li {
-	padding-right: 30px;
+	padding-right: 20px;
 }
 
 .logo-white {
-	width: 9rem;
+	width: 7rem;
 }
 .logo-black {
 	display: none;
 }
 
 .push {
-	margin-left: 5em;
+	margin-left: 3.5em;
 }
 
 .fab,
 .far {
-	font-size: 2.3em;
+	font-size: 2em;
 	color: #fff;
 	text-shadow: 2px 2px 5px var(--soft-blue);
 }
@@ -78,11 +77,11 @@ nav ul li {
 }
 
 .illustration {
-	width: 350px;
-	height: 350px;
+	width: 290px;
+	height: 290px;
 	position: absolute;
 	top: 30%;
-	left: 10%;
+	left: 5%;
 }
 
 .main {
@@ -114,9 +113,9 @@ h2 {
 }
 
 .signup input {
-	width: 90%;
+	width: 100%;
 	border: 1px solid var(--green);
-	padding: 1.2em;
+	padding: 1em;
 	font-size: 1.1em;
 	border-radius: 10px;
 	box-shadow: 2px 2px 12px var(--green);
@@ -126,7 +125,7 @@ h2 {
 	width: 50%;
 	border: 1px solid var(--green);
 	background-color: var(--green);
-	padding: 1.2em;
+	padding: 1em;
 	border-radius: 10px;
 	color: #fff;
 	font-size: 1em;
@@ -139,15 +138,15 @@ h2 {
 	font-size: 0.9em;
 }
 
-/* Screen Size 650px and more */
+/* Screen Size 550px and more */
 
-@media (min-width: 650px) {
+@media (min-width: 550px) {
 	.navbar {
-		left: 5%;
+		left: 10%;
 	}
 
 	.push {
-		margin-left: 15em;
+		margin-left: 10em;
 	}
 
 	.fab,
@@ -157,15 +156,18 @@ h2 {
 	}
 
 	.illustration {
+		width: 320px;
+		height: 320px;
 		left: 25%;
+		top: 35%;
 	}
 
 	.container-text-header {
-		margin: 0 5em;
+		margin: 0 3em;
 	}
 
 	.signup {
-		margin-left: 5em;
+		margin-left: 3em;
 	}
 
 	.signup input,
@@ -200,34 +202,30 @@ h2 {
 	}
 }
 
-/* Screen Size 800px and more */
+/* Screen Size 750px and more */
 
-@media (min-width: 800px) {
+@media (min-width: 750px) {
 	.navbar {
-		left: 8%;
+		left: 10%;
+		top: 3%;
 	}
 
 	.push {
-		margin-left: 20em;
+		margin-left: 15em;
 	}
 
 	.fab,
 	.far {
-		font-size: 2.8em;
-	}
-
-	.illustration {
-		left: 28%;
+		font-size: 2.5em;
 	}
 
 	.container-text-header {
-		margin-right: 3em;
-		margin-left: 7em;
+		margin: 0 4em;
 	}
 
 	.signup {
 		margin-top: 2.5em;
-		margin-left: 7em;
+		margin-left: 4em;
 	}
 
 	.signup input {
@@ -248,35 +246,36 @@ h2 {
 @media (min-width: 1000px) {
 	.navbar {
 		left: 10%;
+		top: 5%;
+	}
+
+	.logo-white {
+		width: 9.5em;
 	}
 
 	.push {
-		margin-left: 30em;
+		margin-left: 28em;
 	}
 
 	.fab,
 	.far {
-		font-size: 2.8em;
+		font-size: 3em;
 		padding-right: 0.5em;
 	}
 
 	.illustration {
+		width: 450px;
+		height: 450px;
+		top: 40%;
 		left: 30%;
 	}
 
 	.container-text-header {
-		margin-right: 10em;
-		margin-left: 10em;
+		margin: 0 10em;
 	}
 
 	.signup {
-		margin-top: 2.5em;
 		margin-left: 10em;
-	}
-
-	.signup input,
-	.signup button {
-		padding: 1.1em;
 	}
 
 	.signup input {
@@ -393,7 +392,7 @@ h2 {
 	}
 
 	h1 {
-		margin-top: 6em;
+		margin-top: 6.5em;
 	}
 
 	h2 {
@@ -416,12 +415,10 @@ h2 {
 
 	.signup form {
 		grid-template-columns: 1fr 1fr;
-		grid-gap: 30px;
-		padding-right: 1em;
 	}
 
 	.signup input {
-		width: 105%;
+		width: 100%;
 	}
 
 	.signup button {
