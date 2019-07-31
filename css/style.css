@@ -433,3 +433,23 @@ h2 {
 		margin-bottom: 0;
 	}
 }
+
+/*  LANDSCAPE */
+
+@media (max-height: 500px) {
+	.push {
+		margin-left: 14em;
+	}
+
+	.logo-white {
+		width: 9em;
+	}
+
+	.bg-blue {
+		height: 70%;
+	}
+
+	.illustration {
+		top: 75%;
+	}
+}
